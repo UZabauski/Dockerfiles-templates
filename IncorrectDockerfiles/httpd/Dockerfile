@@ -3,11 +3,11 @@
 # docker run -d -p 8082:80 my-httpd:v1
 # http://localhost:8082
 
-FROM centos
+FROM redhat/ubi9:9.3
 
-RUN yum update -y && \
-    yum install httpd -y && \
-    yum clean all
+RUN dnf update -y && \
+    dnf install httpd -y && \
+    dnf clean all
 RUN echo "My httpd container!" > /var/www/html/index.html
 
 EXPOSE 80
