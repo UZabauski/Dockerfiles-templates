@@ -1,6 +1,6 @@
 # Usage:
 # docker build -t my-webgoat:v1 .
-# docker run -d -p 127.0.0.1:8085:8085 -p 127.0.0.1:9090:9090 my-webgoat:v1 
+# docker run -d -p 8085:8085 -p 9090:9090 my-webgoat:v1 
 # http://localhost:8085/WebGoat/
 
 FROM eclipse-temurin:22.0.1_8-jre
