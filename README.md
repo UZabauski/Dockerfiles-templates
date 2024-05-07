@@ -2,4 +2,4 @@
 These are Dockerfiles templates.
 
 ## IncorrectDockerfiles
-This folder contains Dockerfiles for [Jenkins-Anchore-Nexus project](https://github.com/UZabauski/Jenkins-Anchore-Nexus).
+This folder contains Dockerfiles for [jenkins-grype-syft project](https://github.com/UZabauski/jenkins-grype-syft).
